@@ -1,7 +1,26 @@
 body {
     font-family: Arial, sans-serif;
     text-align: left;
+    background-color: rgb(255, 224, 245);
 }
 #weather {
     margin-top: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 181, 229);
+    border-radius: 15%;
+}
+
+input {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 181, 229);
+    width: 50%;
 }
