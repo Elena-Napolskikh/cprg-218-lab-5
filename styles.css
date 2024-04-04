@@ -14,13 +14,13 @@ h1 {
 button {
     font-size: 2rem;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 181, 229);
+    background-color: rgb(255, 205, 237);
     border-radius: 15%;
 }
 
 input {
     font-size: 2rem;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 181, 229);
+    background-color: rgb(255, 205, 237);
     width: 50%;
 }
