@@ -1,26 +1,51 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: left;
-    background-color: rgb(255, 224, 245);
-}
-#weather {
-    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(255, 233, 248);
 }
 
-h1 {
-    font-size: 3rem;
+#weather {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(255, 204, 239);
+    border-radius: 10px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("assets/sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+  
+.hero-text {
+    text-align: center;
+    font-size: 2rem;
+    top: 80%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 button {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 205, 237);
-    border-radius: 15%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(97, 0, 62);
+    border-radius: 10px;
 }
 
 input {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 205, 237);
+    color: rgb(97, 0, 62);
+    background-color: rgb(255, 255, 255);
     width: 50%;
 }
+
+form {
+    margin-top: 50px;
+}
+

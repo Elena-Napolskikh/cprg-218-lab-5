@@ -17,10 +17,10 @@ form.addEventListener('submit', (e) => {
                 <p>Description: ${weather}</p>
                 <p>Temperature: ${temperature}°C</p>
             `;
+            weatherContainer.style.display = 'block';
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
             weatherContainer.innerHTML = `<p>Couldn't fetch weather data. Please try again.</p>`;
         });   
 });
-
